@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #1c1e53;
+}
+
+.logo img {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content h1 {
+  letter-spacing: 2px;
+  color: white;
+  width: 70%;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.content p {
+  color: white;
+  font-size: 14px;
+  opacity: 0.6;
+  width: 55%;
+  margin-top: 10px;
+  letter-spacing: normal;
+}
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -80px;
+  margin-left: 80px;
+}
+.download-button-container {
+  margin-bottom: 10px;
+  margin: 0 10px;
+  /* margin-left: ; */
+}
+
+.download-button {
+  display: block;
+  background-color: #fcd980;
+  color: #282938;
+  text-align: center;
+  padding: 20px;
+  /* padding-right: 40px; */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.small-button {
+  display: block;
+  background-color: #fcd980;
+  color: #282938;
+  text-align: center;
+  padding: 5px 10px; /* Smaller padding */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.large-button {
+  display: block;
+  background-color: #fcd980;
+  color: #282938;
+  text-align: center;
+  padding: 20px 30px; /* Larger padding */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  margin: 30px 85px;
+}
+.footer h4 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.prof p {
+  opacity: 0.6;
+}
+.members {
+  margin-left: 50px;
+}
+.members p {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  .content {
+    padding: 50px;
+    margin-top: 50px;
+  }
+  .content h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .content p {
+    width: 100%;
+    font-size: 11px;
+    text-align: start;
+    margin-left: 20px;
+  }
+  .img img {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+    padding: 20px;
+  }
+  .footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .prof h4 {
+    width: 100%;
+    font-size: 14px;
+  }
+  .prof p {
+    margin-top: 5px;
+  }
+  .members p {
+    margin-top: 5px;
+  }
+  .members h4 {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 11px;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .download-button {
+    width: 100%;
+  }
+  .logo img {
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin-top: -40px;
+  }
+  .content {
+    margin-top: 15px;
+  }
+  .btn {
+    margin-top: -50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+  }
+  .download-button-container{
+    margin-top: 10px;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+}
