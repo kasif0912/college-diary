@@ -90,6 +90,7 @@ body {
   display: flex;
   color: white;
   margin: 30px 85px;
+  /* border: 1px solid red; */
 }
 .footer h4 {
   margin-top: 20px;
@@ -103,6 +104,11 @@ body {
 }
 .members p {
   opacity: 0.6;
+}
+.department h2 {
+  text-align: center;
+  margin-left: 28em;
+  padding-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -137,6 +143,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .prof h4 {
     width: 100%;
@@ -184,10 +191,17 @@ body {
     align-items: center;
     margin-right: 60px;
   }
-  .download-button-container{
+  .download-button-container {
     margin-top: 10px;
   }
   .footer {
     margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .department h2 {
+    margin-left: 0;
+    text-align: left;
+    width: 70vw;
   }
 }
