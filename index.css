@@ -142,9 +142,12 @@ body {
   .footer {
     margin-top: 40px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+  .prof{
+    margin-left:50px;
   }
   .prof h4 {
     width: 100%;
@@ -175,19 +178,13 @@ body {
     display: flex;
     margin-top: 60px;
   }
+  .department h2{
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.9;
+  }
 }
 
-@media (width: 400px) {
-  .prof {
-    margin-left: 5rem;
-  }
-  .members {
-    margin-left: 5rem;
-  }
-  .department {
-    margin-left: 5rem;
-  }
-}
 
 @media (max-width: 412px) {
   .container {
@@ -216,6 +213,6 @@ body {
     margin-left: -20px;
     text-align: center;
     width: 70vw;
-    font-size: 20px;
+    font-size: 10px;
   }
 }
