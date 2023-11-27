@@ -214,8 +214,8 @@ body {
 @media (max-width: 768px) {
   .department h2 {
     margin-left: -20px;
-    text-align: start;
+    text-align: center;
     width: 70vw;
-    font-size: 10px;
+    font-size: 20px;
   }
 }
