@@ -88,6 +88,7 @@ body {
 
 .footer {
   display: flex;
+  justify-content: space-around;
   color: white;
   margin: 30px 85px;
   /* border: 1px solid red; */
@@ -107,7 +108,7 @@ body {
 }
 .department h2 {
   text-align: center;
-  margin-left: 28em;
+  /* margin-left: 28em; */
   padding-top: 10px;
 }
 
