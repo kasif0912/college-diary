@@ -177,7 +177,19 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (width: 400px) {
+  .prof {
+    margin-left: 5rem;
+  }
+  .members {
+    margin-left: 5rem;
+  }
+  .department {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 412px) {
   .container {
     flex-direction: column;
     margin-top: -40px;
@@ -201,8 +213,9 @@ body {
 }
 @media (max-width: 768px) {
   .department h2 {
-    margin-left: 0;
-    text-align: left;
+    margin-left: -20px;
+    text-align: start;
     width: 70vw;
+    font-size: 10px;
   }
 }
